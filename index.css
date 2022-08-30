@@ -1,0 +1,41 @@
+html, body {
+    margin: 0px;
+    padding: 0;
+    background: purple;
+    animation: background 10s infinite;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.btn {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right:20px;
+    background: green;
+    color: red;
+    font-size: 20px;
+    border-radius: 20px;
+    animation: buttons 10s infinite;
+}
+.middle-button {
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+@keyframes buttons {
+    0% {Background-color: #ffcdb2;}
+    20% {background-color: #ffb4a2;}
+    40% {background-color: #e5989b;}
+    60% {background-color: #e5989b;}
+    80% {background-color: #ffb4a2;}
+    100% {background-color: #ffcdb2;}
+}
+@keyframes background {
+    0% {background-color: #686d75;}
+    25% {background-color: #b5838d;}
+    50% {background: #e5989b;}
+    75% {background-color: #b5838d;}
+    100% {background-color: #686d75;}
+}
